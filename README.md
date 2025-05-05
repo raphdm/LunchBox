@@ -13,7 +13,7 @@ The application includes the following modules:
 * **Academic Records**:
   
     * **Student Profile Management**: Allows users to add, edit, view, and delete their basic student information (Full Name, Student ID, Course, Year Level). Profile data is saved per user.
-    * **Grade Tracker**: Enables users to manage semesters, add subjects, track grades per term, calculate averages, and view grade reports[cite: 7, 9]. Grade data is saved per user.
+    * **Grade Tracker**: Enables users to manage semesters, add subjects, track grades per term, calculate averages, and view grade reports. Grade data is saved per user.
       
 * **Kanban Board**: A task management system where users can:
     * Add, update, and delete tasks with titles, descriptions, and due dates.
