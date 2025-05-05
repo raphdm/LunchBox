@@ -46,40 +46,6 @@ The application includes the following modules:
 2.  The application will first present a login/register menu.
 3.  After logging in, the main menu will display the available feature modules.
 
-## File Structure
-
-LunchBox/
-├── include/             # Header files (.h)
-│   ├── AcademicRecords/ # Headers for Academic Records module
-│   ├── CitationBuilder/ # Headers for Citation Builder module
-│   ├── Kanban/          # Headers for Kanban module
-│   └── NoteTaking/      # Headers for Note Taking module
-│   └── auth.h
-│   └── FeatureModule.h
-│   └── utils.h
-│   └── validation.h
-│
-├── src/                 # Source files (.cpp)
-│   ├── AcademicRecords/ # Implementation for Academic Records module
-│   ├── CitationBuilder/ # Implementation for Citation Builder module
-│   ├── Kanban/          # Implementation for Kanban module
-│   └── NoteTaking/      # Implementation for Note Taking module
-│   └── auth.cpp
-│   └── main.cpp
-│   └── mainMenu.cpp
-│   └── utils.cpp
-│   └── validation.cpp
-│
-├── SavedData/           # Directory where user data is stored (created at runtime)
-│   ├── CitationHistory/ # Saved citation history files
-│   ├── GradeData/       # Saved grade tracking files
-│   ├── Kanban/          # Saved Kanban board files
-│   ├── Notes/           # Saved notes files
-│   ├── StudentInformation/ # Saved student profile files
-│   └── UserCredentials/ # Saved user login files
-│
-└── (Other build files like Debug/Release folders, logs, etc.) 
-
 ## Dependencies
 
 * C++ Standard Library (iostream, string, vector, fstream, limits, sstream, algorithm, chrono, etc.)
